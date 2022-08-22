@@ -1,0 +1,56 @@
+.flex{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+.container-product{
+    min-height: 100vh;
+}
+
+
+.image-container-product{
+   
+    display: flex;
+    
+}
+
+.image-container-product img{
+    object-fit: cover;
+      
+    
+    
+}
+
+
+
+
+.image-row{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.image-row img{
+    width: 60px;
+    height: 80px;
+    object-fit: contain;
+}
+
+@media (max-width:600px){
+
+    .container-product{
+        flex-direction: column;
+        gap: 0;
+
+
+    }
+
+    .container-product .img{
+        height: 300px;
+        object-fit: contain;
+    }
+
+}
+
